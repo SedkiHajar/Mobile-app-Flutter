@@ -4,12 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-/**
- * The Class User.
- *
- * @author devrobot
- * @version 1.0
- */
+
 @Entity
 public class User {
 
@@ -35,14 +30,7 @@ public class User {
 	public User() {
 	}
 
-	/**
-	 * Instantiates a new user.
-	 *
-	 * @param username the username
-	 * @param email    the email
-	 * @param password the password
-	 * @param isAdmin  the is admin
-	 */
+	
 	public User(String username, String email, String password, boolean isAdmin) {
 		this.username = username;
 		this.email = email;
