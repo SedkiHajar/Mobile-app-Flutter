@@ -7,12 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-/**
- * The Class Product.
- *
- * @author devrobot
- * @version 1.0
- */
+
 @Entity
 public class Product {
 
@@ -60,19 +55,7 @@ public class Product {
 	public Product() {
 	}
 
-	/**
-	 * Instantiates a new product.
-	 *
-	 * @param id          the id
-	 * @param name        the name
-	 * @param description the description
-	 * @param weight      the weight
-	 * @param price       the price
-	 * @param picture1    the picture 1
-	 * @param picture2    the picture 2
-	 * @param picture3    the picture 3
-	 * @param category    the category
-	 */
+	
 	public Product(Integer id, String name, String description, double weight, double price, String picture1,
 			String picture2, String picture3, Category category) {
 		super();
