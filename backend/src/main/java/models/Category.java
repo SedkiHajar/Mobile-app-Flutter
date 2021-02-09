@@ -9,12 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-/**
- * The Class Category.
- * 
- * @author devrobot
- * @version 1.0
- */
+
 @Entity
 public class Category {
 
